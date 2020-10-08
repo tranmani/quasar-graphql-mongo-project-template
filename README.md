@@ -1,2 +1,3 @@
-# quasar-graphql-nodejs-jwt
-Template project that include backend and frontend using GraphQL, VueJS, Quasar, JWT, MongoDB, Bcrypt
+# GraphQL, Quasar, MongoDB project template
+- Project template to kickstart your work fast
+- Include backend and frontend using GraphQL, VueJS, Quasar, JWT, MongoDB, Bcrypt

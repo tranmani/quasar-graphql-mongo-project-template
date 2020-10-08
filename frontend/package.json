@@ -1,0 +1,46 @@
+{
+  "name": "quasar-app",
+  "version": "0.0.1",
+  "description": "A Quasar Web App",
+  "productName": "Quasar App",
+  "author": "Huy <minhhuy8137@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "apollo-boost": "^0.4.9",
+    "apollo-link-ws": "^1.0.20",
+    "connect-history-api-fallback": "^1.6.0",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.11.0",
+    "quasar": "^1.0.0",
+    "subscriptions-transport-ws": "^0.9.18",
+    "vue-apollo": "^3.0.4"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
